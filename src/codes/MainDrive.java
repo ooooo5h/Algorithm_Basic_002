@@ -10,7 +10,7 @@ public class MainDrive {
 //		단 0번째 피보나치 수는 0, 1번째 피보나치 수는 1
 //		ex) 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ... 
 		
-//		수열을 배열에 담자 일단 100칸짜리로 만듦
+//		수열을 배열에 담자 일단 10칸짜리로 만듦
 		int[] fibonacciArr = new int[100];
 		
 //		0번째 = 0 , 1번째 = 1로 초기화
@@ -18,9 +18,14 @@ public class MainDrive {
 		fibonacciArr[1] = 1;
 		
 //		2번째부터는 반복문을 이용
-		for(int i = 2; i <= fibonacciArr.length; i++) { 
+		for(int i = 2; i <= 10; i++) { 
 			fibonacciArr[i] = fibonacciArr[i-1] + fibonacciArr[i-2];
 		}
-	}
+		
+//		출력 : 배열의 출력은 for-each
+		for (int i : fibonacciArr) {
+			System.out.print(fibonacciArr[i] + " ");
+	    }
+}
 
 }
