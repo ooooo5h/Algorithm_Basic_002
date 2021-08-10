@@ -27,6 +27,11 @@ public class MainDrive {
 //			System.out.print(fibonacciArr[i] + " ");
 //	    }
 //		출력값이 이상하게 나옴 0 1 1 1 2 5 21 0 0 ...
+		
+//		출력 다시
+		for(int i = 0; i <= 10; i ++) {
+			System.out.print(fibonacciArr[i] + " ");
+		}
 }
 
 }
