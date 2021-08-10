@@ -50,6 +50,7 @@ public class MainDrive {
 			
 			beforeNum = nNum;
 			beforeBeforeNum = beforeNum;
+//			출력값이 틀림 : 0 1 1 2 4 8 16 32 64 128 256 왜그럴까
 		
 		}
 		
