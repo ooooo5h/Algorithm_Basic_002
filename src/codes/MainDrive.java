@@ -40,6 +40,9 @@ public class MainDrive {
 		int beforeBeforeNum = 0;
 		int beforeNum = 1;
 		
+		System.out.print(beforeBeforeNum + " ");
+		System.out.print(beforeNum + " ");
+		
 		for(int i = 2; i <= 10; i++) {
 			
 			int nNum = beforeNum + beforeBeforeNum;
