@@ -16,6 +16,12 @@ public class MainDrive {
 //		0번째 = 0 , 1번째 = 1로 초기화
 		fibonacciArr[0] = 0;
 		fibonacciArr[1] = 1;
+		
+//		2번째부터는 반복문을 이용
+		for(int i = 2; i <= 10; i++) { //일단 10번째까지 테스트
+			fibonacciArr[i] = fibonacciArr[i-1] + fibonacciArr[i-2];
+			System.out.print(fibonacciArr[i] + " "); //테스트 출력해보자
+		}
 	}
 
 }
