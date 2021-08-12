@@ -29,9 +29,15 @@ public class MainDrive {
 //		출력값이 이상하게 나옴 0 1 1 1 2 5 21 0 0 ...
 
 //		출력 다시
-		for (int i = 0; i <= 10; i++) {
-			System.out.print(fibonacciArr[i] + " ");
-		}
+//		for (int i = 0; i <= 10; i++) {
+//			System.out.print(fibonacciArr[i] + " ");
+//		}
+		
+//		출력 : 배열의 출력은 for-each
+		for (int i : fibonacciArr) {
+			System.out.print(i + " ");
+	    }
+
 		
 		System.out.println();
 		
